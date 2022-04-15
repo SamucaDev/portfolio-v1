@@ -1,10 +1,12 @@
 import React from 'react';
-import { Main } from './styles';
+import * as S from './styles';
 
 const Home = () => (
-  <Main className='container'>
-    Oi
-  </Main>
+  <S.Main>
+    <S.Wrapper>
+      
+    </S.Wrapper>
+  </S.Main>
 );
 
 export default Home;
