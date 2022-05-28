@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
   height: calc(100vh - 24px);
   display: flex;
   box-shadow: 0 4px 8px 0 rgb(15 15 20 / 20%);
+  position: relative;
 `;
 
 export const ProfessionalInformationMenu = styled.div`
@@ -29,8 +30,3 @@ export const Slot = styled.div`
 `;
 
 
-export const NavigationOptionsMenu = styled.div`
-  background-color: #2C3047;
-  height: 100%;
-  width: 6%;
-`;
