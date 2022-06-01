@@ -6,7 +6,7 @@ const Profile = ({ name, profession }) => {
   return (
     <S.Main>
       <S.BoxImageRadius>
-        <S.Image src='' />
+        <S.Image src='https://avatars.githubusercontent.com/u/51060285?v=4' />
       </S.BoxImageRadius>
       <S.Name>{ name }</S.Name>
       <S.Profession>{ profession }</S.Profession>
