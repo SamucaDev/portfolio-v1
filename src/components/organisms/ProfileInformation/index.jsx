@@ -1,4 +1,4 @@
-import React from 'react';
+import PersonalInformation from '../../molecules/PersonalInformation';
 import Profile from '../../molecules/Profile';
 import * as S from './styles';
 
@@ -9,8 +9,8 @@ const ProfileInformation = () => {
       <S.Information>
         <Profile name="Samuel Rodrigues" profession="Desenvolvedor Front-end" />
       </S.Information>
-      <S.Stacks></S.Stacks>
-      <S.SocialMediaFooter></S.SocialMediaFooter>
+      <PersonalInformation></PersonalInformation>
+      {/* <S.SocialMediaFooter></S.SocialMediaFooter> */}
     </S.SideNav>
   );
 }
