@@ -26,7 +26,7 @@ export const ProfessionalInformationMenu = styled.div`
 export const Slot = styled.div`
   background-color: #282C40;
   height: 100%;
-  width: 73%;
+  width: 79%;
 `;
 
 
