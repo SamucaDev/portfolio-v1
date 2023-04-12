@@ -1,12 +1,17 @@
 import React from 'react';
+import NavigationOptionsMenu from '../../organisms/NavigationOptionsMenu';
+import ProfileInformation from '../../organisms/ProfileInformation';
+import Portfolio from '../../organisms/Portfolio';
 import * as S from './styles';
 
 const Home = () => (
   <S.Main>
     <S.Wrapper>
-      <S.ProfessionalInformationMenu></S.ProfessionalInformationMenu>
-      <S.Slot></S.Slot>
-      <S.NavigationOptionsMenu></S.NavigationOptionsMenu>
+      <ProfileInformation />
+      <S.Slot>
+        <Portfolio></Portfolio>
+      </S.Slot>
+      {/* <NavigationOptionsMenu /> */}
     </S.Wrapper>
   </S.Main>
 );
